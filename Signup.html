@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<h1>WELCOME TO INNOCENT MUHAVI MAYE WEB..</h1>
+<P>YOU CREAT ACCOUNT TO LOG ON</P>
+<button id="login" onclick="document.getElementById('modal').style.display='block', login()">Login</button>
+<link rel="stylesheet" href="Maye.css">
+<script src="Mahye.js"></script>
+<script src="Testy.js"></script>
+
+      <h3 id="name-el"></h3>
+  <p id="trial-el"></p>
+  <p id="warn-el"></p>
+
+<!-- The Modal -->
+<div id="modal" class="modal">
+  <span onclick="document.getElementById('modal').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+
+  <!-- Modal Content -->
+  <form class="modal-content animate" >
+    
+      <div class="imgcontainer">
+      <img src="imm.jpg" alt="Avatar" class="avatar">
+    </div>
+
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username"  id="name" name="uname" required>
+      <label for="email"><b>Email</b></label>
+      <input type="email" name="email" id="email" placeholder="Enter your email" required />
+      <label for="Phone"><b>Phone</b></label>
+<input type="tel" name="tel" id="tel" value="+254" placeholder="Enter your phone number" />
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" id="password" required>
+      <label for="pswr"><b>Repeat Password</b></label>
+      <input type="password" name="psw" placeholder="Repeat password to confirm" id="psw" required/>
+
+      <button id="login" onclick="logon()">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('modal').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+</div>
+</html>

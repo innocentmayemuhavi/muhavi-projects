@@ -1,0 +1,18 @@
+<html>
+  <link rel="stylesheet" href="shp.css">
+  <div id="one" class="one">
+    <p1 id="res-el"></p1>
+    <p1 id="qn-el"></p1>
+     <input type="text" name="length" id="length" value="" />
+   <input type="text" id="first" size="1" onkeyup="movetoNext(this, 'second')" maxlength="1" />  
+        <input type="text" id="second" size="1" onkeyup="movetoNext(this, 'third')" maxlength="1" />  
+        
+        <input type="text" id="third" size="1" maxlength="1">
+  </div>
+  
+  <label for="lenth">lenth</label>
+  <input type="text" name="length" id="length" value="" />
+  <button onclick="start()">START</button>
+  <marquee direction="right">top</marquee>
+  <script src="shp.js"></script>
+  </html>

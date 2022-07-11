@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="Index.css">
+<html>
+<head>
+<title>Doctor Messages</title>
+</head>
+<body>
+<h4>These are the data from page1.html.</h4>
+<div class="dpts">
+<script>
+ 
+var queryString = decodeURIComponent(window.location.search);
+queryString = queryString.substring();
+var queries = queryString.split("&");
+for (var i = 0; i < queries.length; i++)
+{
+  document.write(queries[i] + "<br>");
+}
+ </script> 
+ </div>
+</body>
+</html>
